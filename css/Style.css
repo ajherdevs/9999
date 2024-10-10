@@ -1,0 +1,68 @@
+
+/* common css starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .row {
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1240;
+    margin: auto;
+}
+/* common css Ends here */
+
+
+nav .logo
+
+{
+    width: 20%;
+    
+}
+nav .menu
+
+{
+    width: 50%;
+}
+nav .quickMenu
+
+{
+    width: 30%;
+}
+nav .menu ul{
+    padding: 20px;
+    justify-content: center;
+}
+
+nav .menu ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 38px 42.2px;
+}
+nav .quickMenu{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    padding: 22px 20px;
+    display: inline-block;
+}
